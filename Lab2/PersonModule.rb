@@ -28,7 +28,7 @@ module PersonModule
       puts "Welcome  #{first_name} #{last_name}"
       puts "Your age years : #{@birth_date/365}"
       puts "Your age Months : #{@birth_date / 12}"
-      puts "Your age Days : #{@birth_date / 365}"
+      puts "Your age Days : #{@birth_date}"
     end
   end
 end
